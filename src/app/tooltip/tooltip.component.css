@@ -1,0 +1,42 @@
+/* .toolTip {
+    border: solid 2px grey;
+    height: 40px;
+    width: 200px;
+} */
+
+h1 {
+    border: solid 2px grey;
+    height: 50px;
+    width: 200px;
+    text-align: center; 
+}
+
+.mytooltip {
+    padding-bottom: 1.0em;
+    
+}
+
+.tooltiptext {
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  }
+
+  .mytooltip .tooltiptext:after {
+    content: "";
+    /* position: absolute; */
+    bottom: 111%;
+    left: 50%;
+    margin-left: -40px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent blue transparent;
+ }
+
+
